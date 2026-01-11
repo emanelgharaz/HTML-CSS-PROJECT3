@@ -1,0 +1,464 @@
+:root {
+  --blue-color: #0075ff;
+  --blue-alt-color: #0d69d5;
+  --orange-color: rgb(245, 158, 11);
+  --green-color: rgb(34, 197, 94);
+  --red-color: #f44336;
+  --gray-color: #888;
+}
+
+/*start box*/
+.d-flex {
+  display: flex;
+}
+.flex-w {
+  flex-wrap: wrap;
+}
+.align-center {
+  align-items: center;
+}
+.space-between {
+  justify-content: space-between;
+}
+.flex-end {
+  justify-content: flex-end;
+}
+.f-wrap {
+  flex-wrap: wrap;
+}
+.flex-grow1 {
+  flex-grow: 1;
+}
+/*gid&gap*/
+.d-grid {
+  display: grid;
+}
+.d-block {
+  display: block;
+}
+.gap-20 {
+  gap: 20px;
+}
+.gap-10 {
+  gap: 10px;
+}
+
+@media (max-width: 767px) {
+  .block-mobile {
+    display: block;
+  }
+  .hide-mobile {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .mobile-flexd-d {
+    flex-direction: column;
+  }
+}
+@media (max-width: 767px) {
+  .grid-200-mg-10 {
+    grid-template-columns: minmax(200px, 1fr);
+    margin-left: 10px;
+    margin-right: 10px;
+    gap: 10px;
+  }
+}
+/*end box*/
+/*padding&margin*/
+.p-2 {
+  padding: 2px;
+}
+.p-10 {
+  padding: 10px;
+}
+.p-15 {
+  padding: 15px;
+}
+.p-20 {
+  padding: 20px;
+}
+.pt-5 {
+  padding-top: 5px;
+}
+.pt-15 {
+  padding-top: 15px;
+}
+.pt-20 {
+  padding-top: 20px;
+}
+.pl-10 {
+  padding-left: 10px;
+}
+.pl-15 {
+  padding-left: 15px;
+}
+.pl-30 {
+  padding-left: 30px;
+}
+.pr-10 {
+  padding-right: 10px;
+}
+.pr-15 {
+  padding-right: 15px;
+}
+.pb-5 {
+  padding-bottom: 5px;
+}
+.pb-10 {
+  padding-bottom: 10px;
+}
+.pb-15 {
+  padding-bottom: 15px;
+}
+.pb-20 {
+  padding-bottom: 20px;
+}
+/*margin*/
+.m-0 {
+  margin: 0;
+}
+.m-auto {
+  margin: auto;
+}
+.m-15 {
+  margin: 15px;
+}
+.m-20 {
+  margin: 20px;
+}
+.mt-0 {
+  margin-top: 0;
+}
+.mt-5 {
+  margin-top: 5px;
+}
+.mt-10 {
+  margin-top: 10px;
+}
+.mt-15 {
+  margin-top: 15px;
+}
+.mt-20 {
+  margin-top: 20px;
+}
+.mt-25 {
+  margin-top: 25px;
+}
+.mr-auto {
+  margin-right: auto;
+}
+.mr-10 {
+  margin-right: 10px;
+}
+.mr-5 {
+  margin-right: 5px;
+}
+.mr-15 {
+  margin-right: 15px;
+}
+.ml-auto {
+  margin-left: auto;
+}
+.ml-10 {
+  margin-left: 10px;
+}
+.ml-20 {
+  margin-left: 20px;
+}
+.ml--20 {
+  margin-left: -20px;
+}
+.mb-5 {
+  margin-bottom: 5px;
+}
+.mb-10 {
+  margin-bottom: 10px;
+}
+.mb-15 {
+  margin-bottom: 15px;
+}
+.mb-20 {
+  margin-bottom: 20px;
+}
+.mb-25 {
+  margin-bottom: 25px;
+}
+/*padding&margin*/
+/* start colors*/
+.bg-white {
+  background-color: white;
+}
+.bg-eee {
+  background-color: #eee;
+}
+.bg-blue {
+  background-color: var(--blue-color);
+}
+.bg-blue20 {
+  background-color: rgb(0 117 255 / 20%);
+}
+.bg-orange {
+  background-color: var(--orange-color);
+}
+.bg-orange20 {
+  background-color: rgb(245 158 11 / 20%);
+}
+.bg-green {
+  background-color: var(--green-color);
+}
+.bg-green20 {
+  background-color: rgb(34 197 94/ 20%);
+}
+.bg-red {
+  background-color: var(--red-color);
+}
+.bg-red20 {
+  background-color: rgb(244 67 54 / 20%);
+}
+.c-white {
+  color: white;
+}
+.c-black {
+  color: black;
+}
+.c-grey {
+  color: grey;
+}
+.c-blue {
+  color: var(--blue-color);
+}
+.c-green {
+  color: var(--green-color);
+}
+.c-orange {
+  color: var(--orange-color);
+}
+.c-red {
+  color: var(--red-color);
+}
+.c-666 {
+  color: #666;
+}
+/* end colors*/
+/*start position*/
+.p-relative {
+  position: relative;
+}
+.p-absolute {
+  position: absolute;
+}
+/*end position*/
+/*start fonts*/
+.txt-c {
+  text-align: center;
+}
+.lineh-2 {
+  line-height: 2;
+}
+.fs-12 {
+  font-size: 12px;
+}
+.fs-13 {
+  font-size: 13px;
+}
+.fs-14 {
+  font-size: 14px;
+}
+.fs-15 {
+  font-size: 15px;
+}
+.fs-18 {
+  font-size: 18px;
+}
+.fs-25 {
+  font-size: 25px;
+}
+.fs-40 {
+  font-size: 40px;
+}
+.fw-bold {
+  font-weight: bold;
+}
+.fw-normal {
+  font-weight: normal;
+}
+@media (max-width: 767px) {
+  .txt-c-mobile {
+    text-align: center;
+  }
+}
+@media (max-width: 767px) {
+  .ch-m-b-15 {
+    margin-bottom: 15px;
+  }
+}
+/*end font*/
+/*start border*/
+.rad-6 {
+  border-radius: 6px;
+}
+.rad-10 {
+  border-radius: 10px;
+}
+.rad-half {
+  border-radius: 50%;
+}
+.b-none {
+  border: none;
+}
+.border-ccc {
+  border: 1px solid #ccc;
+}
+.bb-eee {
+  border-bottom: 1px solid #eee;
+}
+.b-2-white {
+  border: 2px solid white;
+}
+.b-3-white {
+  border: 3px solid white;
+}
+.bt-eee {
+  border-top: 1px solid #eee;
+}
+.bl-eee {
+  border-left: 1px solid #eee;
+}
+.br-eee {
+  border-right: 1px solid #eee;
+}
+/*end border*/
+/*outline*/
+.outline-green {
+  outline: 3px solid var(--green-color);
+}
+.outline-blue {
+  outline: 3px solid var(--blue-color);
+}
+.outline-orange {
+  outline: 3px solid var(--orange-color);
+}
+/*end out line*/
+/*start components*/
+.between-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.center-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn-shape {
+  padding: 4px 10px;
+  border-radius: 6px;
+}
+.icon-img {
+  width: 64px;
+  height: 64px;
+  margin-right: 10px;
+}
+.vip {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 40px;
+  opacity: 0.2;
+}
+.grid-t-c-450 {
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.grid-t-c-300 {
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+/*end components*/
+/*width+height*/
+.w-full {
+  width: 100%;
+}
+.w-100 {
+  width: 100px;
+}
+.w-fit {
+  width: fit-content;
+}
+.w-150 {
+  width: 150px;
+}
+.w-100 {
+  width: 100px;
+}
+.h-full {
+  height: 100%;
+}
+.h-100 {
+  height: 100px;
+}
+.w-h-64 {
+  width: 64px;
+  height: 64px;
+}
+.w-h-40 {
+  width: 40px;
+  height: 40px;
+}
+.w-h-32 {
+  width: 32px;
+  height: 32px;
+}
+/*width+height*/
+/*motion*/
+.tran-3s {
+  transition: 0.3s;
+}
+/*end motion*/
+/*directions*/
+.top-0 {
+  top: 0;
+}
+.top-10 {
+  top: 10px;
+}
+.top-20 {
+  top: 20px;
+}
+.left-0 {
+  left: 0;
+}
+.left-10 {
+  left: 10px;
+}
+.left-20 {
+  left: 20px;
+}
+.left--20 {
+  left: -20px;
+}
+.right-0 {
+  right: 0;
+}
+.right-10 {
+  right: 10px;
+}
+.bottom-0 {
+  bottom: 0;
+}
+/*end directions*/
+/*curser*/
+.cursor-p {
+  cursor: pointer;
+}
+.x:hover {
+  color: var(--blue-alt-color);
+  cursor: pointer;
+}
+.xbg:hover {
+  color: white;
+  background-color: var(--blue-alt-color);
+}
